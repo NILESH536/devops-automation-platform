@@ -1,0 +1,31 @@
+name: Java DevOps CI Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build-and-automate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Compile Java project
+        run: javac app/Event_Reminder_System/src/Event_Reminder_System/Executer.java
+
+      - name: Run Java application
+        run: java -cp app/Event_Reminder_System/src Event_Reminder_System.Executer
+
+      - name: Run Linux automation scripts
+        run: |
+          chmod +x linux/*.sh
+          ./linux/monitor.sh
+          ./linux/backup.sh
