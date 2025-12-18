@@ -1,0 +1,19 @@
+System Monitoring Report - 2025-12-18_15-04-47
+--------------------------------
+ 15:04:47 up 58 min,  1 user,  load average: 0.00, 0.00, 0.03
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           387M  1.8M  386M   1% /run
+/dev/sda3        78G   14G   61G  19% /
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+tmpfs           387M  120K  387M   1% /run/user/1000
+/dev/sr0        4.5G  4.5G     0 100% /media/nerodevops/Ubuntu 22.04.5 LTS amd64
+               total        used        free      shared  buff/cache   available
+Mem:            3868        2085         285          88        1497        1685
+Swap:           3897           1        3896
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+nerodev+    2876  5.7 21.2 4886080 840972 ?      Sl   14:19   2:36 /snap/firefox/7477/usr/lib/firefox/firefox
+nerodev+    3636  2.2  8.6 12381996 342596 ?     Sl   14:19   1:00 /snap/firefox/7477/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:42095 -prefMapHandle 1:273029 -jsInitHandle 2:223356 -parentBuildID 20251206010143 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6662fcb6-a18a-45ef-816b-bdfa32b765fe} -parentPid 2876 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7477/usr/lib/firefox/omni.ja -appomni /snap/firefox/7477/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7477/usr/lib/firefox/browser 9 tab
+nerodev+    2143  1.1  7.6 4488440 302844 ?      Ssl  14:06   0:39 /usr/bin/gnome-shell
+nerodev+    1986  0.2  0.7 1498296 29140 ?       S<sl 14:06   0:07 /usr/bin/pulseaudio --daemonize=no --log-target=journal
