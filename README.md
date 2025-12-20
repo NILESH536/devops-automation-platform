@@ -175,13 +175,6 @@ whiteflame536/event-reminder-devops:latest
 
 ---
 
-## 🚫 Kubernetes Note
-
-Kubernetes is **intentionally not used** in this project as it is **not mentioned in the project synopsis**.
-The project strictly focuses on **Docker + CI/CD automation**.
-
----
-
 ## 🎯 Key Features
 
 * Fully automated CI pipeline
