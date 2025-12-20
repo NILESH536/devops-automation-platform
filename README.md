@@ -1,24 +1,31 @@
-🚀 DevOps Automation Platform – Java Event Reminder System
 
-📌 Project Overview
+
+# 🚀 DevOps Automation Platform – Java Event Reminder System
+
+## 📌 Project Overview
 
 The **DevOps Automation Platform** is a Java-based Event Reminder System integrated with a complete **CI/CD pipeline using GitHub Actions and Docker**.
 The project demonstrates how a Java application can be automatically built, containerized, tested, and deployed using DevOps best practices **without using Kubernetes**.
 
 This project focuses on **automation, containerization, and continuous integration**, making it suitable for academic evaluation and real-world DevOps understanding.
 
-🛠️ Technologies Used
-## Programming Language: Java
-## Version Control: Git & GitHub
-## CI/CD Tool: GitHub Actions
-## Containerization: Docker
-## Container Registry: Docker Hub
-## OS Environment: Linux (Ubuntu)
-## Build Tool: Java Compiler (javac)
+---
+
+## 🛠️ Technologies Used
+
+* **Programming Language:** Java
+* **Version Control:** Git & GitHub
+* **CI/CD Tool:** GitHub Actions
+* **Containerization:** Docker
+* **Container Registry:** Docker Hub
+* **OS Environment:** Linux (Ubuntu)
+* **Build Tool:** Java Compiler (javac)
+
+---
 
 ## 🏗️ Project Architecture
 
-## Architecture Flow
+### Architecture Flow
 
 ```
 Developer
@@ -166,6 +173,14 @@ http://localhost:8080
 whiteflame536/event-reminder-devops:latest
 ```
 
+---
+
+## 🚫 Kubernetes Note
+
+Kubernetes is **intentionally not used** in this project as it is **not mentioned in the project synopsis**.
+The project strictly focuses on **Docker + CI/CD automation**.
+
+---
 
 ## 🎯 Key Features
 
@@ -175,7 +190,7 @@ whiteflame536/event-reminder-devops:latest
 * Clean DevOps workflow
 * Academic + industry relevance
 
-
+---
 
 ## ✅ Project Status
 
@@ -184,10 +199,13 @@ whiteflame536/event-reminder-devops:latest
 ✔ GitHub Actions pipeline passing
 ✔ Docker image pushed to Docker Hub
 
-
+---
 
 ## 👨‍💻 Author
 
 **Name:** Nilesh
 **GitHub:** [https://github.com/NILESH536](https://github.com/NILESH536)
 **Docker Hub:** [https://hub.docker.com/u/whiteflame536](https://hub.docker.com/u/whiteflame536)
+
+
+
